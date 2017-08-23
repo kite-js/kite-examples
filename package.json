@@ -1,0 +1,34 @@
+{
+  "name": "kite-examples",
+  "version": "1.0.0",
+  "description": "Kite frameword examples",
+  "main": "dist/app.server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kite-js/kite-examples.git"
+  },
+  "keywords": [
+    "Kite",
+    "framework",
+    "examples",
+    "kite-js",
+    "kitejs",
+    "kite-framework"
+  ],
+  "author": "Arthur Xie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kite-js/kite-examples/issues"
+  },
+  "homepage": "https://github.com/kite-js/kite-examples#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.10",
+    "kite-framework": "^0.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.24"
+  }
+}

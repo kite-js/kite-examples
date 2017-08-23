@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "target": "ES6",
+        "lib": ["es2016"],
+        "module": "commonjs",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "rootDir": "./src/",
+        "outDir": "./dist/",
+        "types": [
+            "node"
+        ],
+        "typeRoots": ["node_modules/@types"]
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
