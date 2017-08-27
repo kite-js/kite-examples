@@ -7,8 +7,12 @@ import { Controller, Entry } from 'kite-framework';
 @Controller()
 export class UserGreateController {
     @Entry()
-    async exec(user: UserModel) {
-        // save user to database
+    async exec(_id: number, user: UserModel) {
+        // todo: get data from db
+        // todo: update user to database
+        console.log("_id = ", _id);
+        console.log("user = ", user);
+        user._id = _id;
         return { user };
     }
 }

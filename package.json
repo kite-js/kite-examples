@@ -4,7 +4,7 @@
   "description": "Kite frameword examples",
   "main": "dist/app.server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node dist/app.server.js"
   },
   "repository": {
     "type": "git",

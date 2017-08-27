@@ -3,7 +3,7 @@
         "moduleResolution": "node",
         "noImplicitAny": true,
         "target": "ES6",
-        "lib": ["es2016"],
+        "lib": ["es6"],
         "module": "commonjs",
         "sourceMap": true,
         "experimentalDecorators": true,

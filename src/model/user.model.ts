@@ -16,5 +16,7 @@ export class UserModel {
     password: string;
 
     @In()
-    createdTime: Date = new Date();
+    email: string;
+
+    createdTime: Date;
 }
