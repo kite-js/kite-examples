@@ -1,4 +1,4 @@
-import { UserModel } from './../../model/user.model';
+import { UserModel } from './../../models/user.model';
 import { Controller, Entry } from 'kite-framework';
 
 /**
