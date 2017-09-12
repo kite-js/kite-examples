@@ -1,3 +1,3 @@
 import { Kite } from 'kite-framework';
 
-new Kite().fly();
+Kite.init().fly();
