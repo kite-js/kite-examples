@@ -1,3 +1,7 @@
-import { Kite } from 'kite-framework';
+import { Kite, Provider, Injectable } from 'kite-framework';
+import { Logger } from './middlewares/logger';
 
-Kite.init().fly();
+new Kite('./kite.config')
+    .use(new Logger())      // a middleware demonstration
+    .watch()                // let application works in watch mode, any changes to controllers/services/models will cause reload
+    .fly();                 // now kite can fly

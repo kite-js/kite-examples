@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/kite-js/kite-examples#readme",
   "dependencies": {
-    "reflect-metadata": "^0.1.10",
-    "kite-framework": "^0.2.5"
+    "kite-framework": "^0.2.7",
+    "reflect-metadata": "^0.1.10"
   },
   "devDependencies": {
     "@types/node": "^8.0.24"
