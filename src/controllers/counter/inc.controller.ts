@@ -1,5 +1,6 @@
 import { CounterService } from './../../services/counter.services';
 import { Controller, Entry, Inject } from 'kite-framework';
+import { PostService } from '../../services/post.service';
 
 /**
  * increase counter value
@@ -8,6 +9,7 @@ import { Controller, Entry, Inject } from 'kite-framework';
 export class CounterIncController {
     // inject counter service
     @Inject() counterService: CounterService;
+    @Inject() postService: PostService;
 
     @Entry()
     async exec() {
